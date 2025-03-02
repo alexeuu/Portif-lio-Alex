@@ -1,0 +1,29 @@
+.secao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    margin-top: 10%;
+    text-align: center; /* Garante que o texto também fique alinhado */
+}
+.secao2 p {
+    font-size: 50px;
+    color: rgb(211,211,211);
+}
+.smp, .alex {
+    width: 100%; /* Garante que a imagem ocupe o espaço disponível */
+    max-width: 300px; /* Define um tamanho máximo para evitar que fique grande demais */
+    height: auto; /* Mantém a proporção correta */
+    border-radius: 50%; /* Mantém a imagem circular */
+    object-fit: cover; /* Evita distorções */
+    
+}
+#item {
+    background-color: blueviolet;
+    color: rgb(211 211 211);
+
+    padding: 15px 20px;
+    border-radius: 40px;
+
+}
+
